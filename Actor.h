@@ -48,9 +48,9 @@ void* getBlockPosCurrentlyStandingOn(Actor* a2,void* a3){
     v21 = v5;
     v19 = v11;
     v20 = v10;
-    sub_44132A8(v23, a3);
+    sub_idk1(v23, a3);
     v15 = sub_3B7CA7C(v23);
-    sub_4614CD8(v24, v15);
+    sub_idk2(v24, v15);
     v9 = v21;
     v16 = v24;
     v11 = v19;
@@ -62,7 +62,7 @@ void* getBlockPosCurrentlyStandingOn(Actor* a2,void* a3){
     v16 = 0;
     v17 = 0;
   }
-  //sub_4417A8C(this, v9, v10, v11, v12, v13, v14, v8, v7, v16); sorry, unknown function called
+  sub_idk3(this, v9, v10, v11, v12, v13, v14, v8, v7, v16); sorry, unknown function called
   if ( v17 )
     sub_3B7CAE2(v23);
   return _stack_chk_guard - v25;
