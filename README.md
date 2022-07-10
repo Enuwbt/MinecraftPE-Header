@@ -1,2 +1,2 @@
 # MinecraftPE-Header
-Header file for disassemblied MinecraftPE 1.19.2
+Header file with disassemblied MinecraftPE 1.19.2
