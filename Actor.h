@@ -12,7 +12,7 @@ public:
 //@return UniqueID*
 void* Actor::getUniqueID(){
   int v4 = *(uintptr_t*)(this + 732);
-  return (*(void (__fastcall **)(__int64 *))(*(_DWORD *)v4 + 1004))((__int64 *)this);
+  return (*(void (**)(int64 *))(*(uintptr_t *)v4 + 1004))((int64 *)this);
 }
 
 //@return RuntimeID*
